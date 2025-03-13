@@ -1,0 +1,12 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v5.4.0)
+
+newmtl tripo_material_01f98dfb-5f5d-47ef-83e5-4af440d6f30b
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd textures/image_1.png
+bump textures/image_2.png
+map_bump textures/image_2.png
+
