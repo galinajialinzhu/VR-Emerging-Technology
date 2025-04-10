@@ -5,15 +5,15 @@ using UnityEngine;
 public class AreaAudioManager : MonoBehaviour
 {
     [Header("Area Colliders (Trigger)")]
-    public List<Collider> areaColliders; // 4个区域 Trigger Collider
+    public List<Collider> areaColliders; // 4 area Trigger Collider
 
     [Header("Objects to Detect")]
-    public List<GameObject> targetObjects; // 16个物体
+    public List<GameObject> targetObjects; // object
 
     [Header("Matching AudioSources (Same order as targetObjects)")]
-    public List<AudioSource> audioSources; // 跟 targetObjects 一一对应
+    public List<AudioSource> audioSources; // audio
 
-    // 每个区域当前在里面的物体
+   
     private Dictionary<int, GameObject> areaCurrentObject = new Dictionary<int, GameObject>();
     private Dictionary<int, float> areaEnterTime = new Dictionary<int, float>();
     private bool hasPlayed = false;
