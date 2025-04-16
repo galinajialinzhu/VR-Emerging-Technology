@@ -2588,6 +2588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 10216
@@ -6091,6 +6095,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -17344,6 +17352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 11372
@@ -22234,6 +22246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 10216
@@ -23618,6 +23634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 11372
@@ -24867,6 +24887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 11372
@@ -25901,6 +25925,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -29477,6 +29505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 11372
@@ -30217,6 +30249,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -33028,6 +33064,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 413057364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &891702268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 891702270}
+  - component: {fileID: 891702269}
+  m_Layer: 4
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &891702269
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891702268}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.51800185, g: 0.47450984, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &891702270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891702268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6427876, y: -0, z: -0, w: 0.7660445}
+  m_LocalPosition: {x: -0.937, y: 0.228, z: -0.314}
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893698242
 GameObject:
   m_ObjectHideFlags: 0
@@ -33422,6 +33552,100 @@ Transform:
   - {fileID: 1168460285}
   - {fileID: 1959855779}
   m_Father: {fileID: 1231749607}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &905558726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905558728}
+  - component: {fileID: 905558727}
+  m_Layer: 4
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &905558727
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905558726}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.61582804, b: 0.47450984, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &905558728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905558726}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6427876, y: -0, z: -0, w: 0.7660445}
+  m_LocalPosition: {x: -1.025, y: 0.529, z: -0.023}
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &906946370
 GameObject:
@@ -34064,7 +34288,7 @@ MonoBehaviour:
     - {x: 0.115238026, y: 0.10218171, z: 0.07537954, w: 0.9851889}
     - {x: 0.46213403, y: 0.019586822, z: -0.07490849, w: 0.8834237}
     - {x: 0.3387217, y: -0.046014667, z: 0.001853039, w: 0.9397591}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!1 &920027303
@@ -36876,7 +37100,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988707010}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3484acd0d36d6c141b244133c993fccc, type: 3}
   m_Name: 
@@ -41495,6 +41719,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -51385,7 +51613,7 @@ MonoBehaviour:
     - {x: -0.115238026, y: 0.10218171, z: 0.07537954, w: -0.9851889}
     - {x: -0.46213403, y: 0.019586822, z: -0.07490849, w: -0.8834237}
     - {x: 0.3387217, y: 0.046014793, z: -0.001853039, w: 0.939759}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!1 &1411451009
@@ -52987,7 +53215,7 @@ MonoBehaviour:
     - {x: 0.115238026, y: 0.10218171, z: 0.07537954, w: 0.9851889}
     - {x: 0.46213403, y: 0.019586822, z: -0.07490849, w: 0.8834237}
     - {x: 0.3387217, y: -0.046014667, z: 0.001853039, w: 0.9397591}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!1001 &1459553457
@@ -56515,7 +56743,7 @@ MonoBehaviour:
     - {x: -0.115238026, y: 0.10218171, z: 0.07537954, w: -0.9851889}
     - {x: -0.46213403, y: 0.019586822, z: -0.07490849, w: -0.8834237}
     - {x: 0.3387217, y: 0.046014793, z: -0.001853039, w: 0.939759}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!1 &1561501110
@@ -60386,7 +60614,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1657120075}
+      - m_Target: {fileID: 1126205907}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -60727,6 +60955,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -62311,6 +62543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 10216
@@ -62659,7 +62895,7 @@ MonoBehaviour:
     - {x: 0.115238026, y: 0.10218171, z: 0.07537954, w: 0.9851889}
     - {x: 0.46213403, y: 0.019586822, z: -0.07490849, w: 0.8834237}
     - {x: 0.3387217, y: -0.046014667, z: 0.001853039, w: 0.9397591}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!1 &1724169082
@@ -64039,6 +64275,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -74237,7 +74477,7 @@ MonoBehaviour:
     - {x: -0.115238026, y: 0.10218171, z: 0.07537954, w: -0.9851889}
     - {x: -0.46213403, y: 0.019586822, z: -0.07490849, w: -0.8834237}
     - {x: 0.3387217, y: 0.046014793, z: -0.001853039, w: 0.939759}
-  _ghostProvider: {fileID: 0}
+  _ghostProvider: {fileID: 11400000, guid: ba24f6f783d84ef4f8ff075364e1283c, type: 2}
   _handGhostProvider: {fileID: 11400000, guid: 9b9df4f150839de48af887d742aabf53, type: 2}
   _ovrOffsetMode: 1
 --- !u!114 &1975145754
@@ -78829,6 +79069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spherical
       objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
       value: 10216
@@ -79322,6 +79566,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -80022,6 +80270,10 @@ PrefabInstance:
     - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: m_Name
       value: Spherical
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946223095280311965, guid: 16966713336d54d4a96c67725c97301c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2946223095280311967, guid: 16966713336d54d4a96c67725c97301c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.ctime0
@@ -80795,6 +81047,8 @@ SceneRoots:
   - {fileID: 2060224318}
   - {fileID: 1146538161}
   - {fileID: 1097625957}
+  - {fileID: 905558728}
+  - {fileID: 891702270}
   - {fileID: 1359971975}
   - {fileID: 767217169}
   - {fileID: 736818771}
