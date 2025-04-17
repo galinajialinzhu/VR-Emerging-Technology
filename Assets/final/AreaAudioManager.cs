@@ -1,107 +1,78 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AreaAudioManager : MonoBehaviour
 {
     [Header("Area Colliders (Trigger)")]
-    public List<Collider> areaColliders; // 4 area Trigger Collider
+    public List<Collider> areaColliders; // 4个区域 Trigger Collider
 
     [Header("Objects to Detect")]
-    public List<GameObject> targetObjects; // object
+    public List<GameObject> targetObjects; // 16个物体
 
     [Header("Matching AudioSources (Same order as targetObjects)")]
-    public List<AudioSource> audioSources; // audio
+    public List<AudioSource> audioSources; // 与 targetObjects 一一对应
 
-   
-    private Dictionary<int, GameObject> areaCurrentObject = new Dictionary<int, GameObject>();
-    private Dictionary<int, float> areaEnterTime = new Dictionary<int, float>();
-    private bool hasPlayed = false;
+    private Dictionary<GameObject, float> enterTimeDict = new Dictionary<GameObject, float>();
+    private Dictionary<GameObject, bool> hasPlayedDict = new Dictionary<GameObject, bool>();
 
     void Start()
     {
-        for (int i = 0; i < areaColliders.Count; i++)
+        foreach (GameObject obj in targetObjects)
         {
-            areaCurrentObject[i] = null;
-            areaEnterTime[i] = 0f;
+            enterTimeDict[obj] = -1f;     // -1表示未进入
+            hasPlayedDict[obj] = false;   // 尚未播放
         }
     }
 
     void Update()
     {
-        for (int i = 0; i < areaColliders.Count; i++)
+        for (int i = 0; i < targetObjects.Count; i++)
         {
-            GameObject obj = GetObjectInArea(areaColliders[i]);
-            if (obj != null)
+            GameObject obj = targetObjects[i];
+            bool isInAnyArea = false;
+
+            foreach (Collider area in areaColliders)
             {
-                if (areaCurrentObject[i] != obj)
+                if (area.bounds.Contains(obj.transform.position))
                 {
-                    areaCurrentObject[i] = obj;
-                    areaEnterTime[i] = Time.time;
+                    isInAnyArea = true;
+
+                    // 首次进入时记录时间
+                    if (enterTimeDict[obj] < 0)
+                    {
+                        enterTimeDict[obj] = Time.time;
+                    }
+
+                    // 如果停留满1秒 且尚未播放声音
+                    if (!hasPlayedDict[obj] && Time.time - enterTimeDict[obj] >= 1f)
+                    {
+                        PlayObjectSound(i);
+                        hasPlayedDict[obj] = true;
+                    }
+
+                    break; // 如果已经在某个区域内，就不用再检查其他区域
                 }
             }
-            else
+
+            if (!isInAnyArea)
             {
-                areaCurrentObject[i] = null;
-                areaEnterTime[i] = 0f;
+                // 离开区域时重置计时和播放状态
+                enterTimeDict[obj] = -1f;
+                hasPlayedDict[obj] = false;
             }
         }
-
-        if (!hasPlayed && AllAreasReady())
-        {
-            PlayAllSounds();
-            hasPlayed = true;
-        }
-
-        if (!AllAreasOccupied())
-        {
-            hasPlayed = false;
-        }
     }
 
-    GameObject GetObjectInArea(Collider area)
+    void PlayObjectSound(int index)
     {
-        foreach (GameObject obj in targetObjects)
+        if (index >= 0 && index < audioSources.Count)
         {
-            if (area.bounds.Contains(obj.transform.position))
+            AudioSource audio = audioSources[index];
+            if (audio != null && !audio.isPlaying)
             {
-                return obj;
-            }
-        }
-        return null;
-    }
-
-    bool AllAreasOccupied()
-    {
-        foreach (var kvp in areaCurrentObject)
-        {
-            if (kvp.Value == null)
-                return false;
-        }
-        return true;
-    }
-
-    bool AllAreasReady()
-    {
-        foreach (var kvp in areaCurrentObject)
-        {
-            if (kvp.Value == null || Time.time - areaEnterTime[kvp.Key] < 1f)
-                return false;
-        }
-        return true;
-    }
-
-    void PlayAllSounds()
-    {
-        Debug.Log("All areas occupied for >1s. Playing sounds!");
-
-        foreach (var kvp in areaCurrentObject)
-        {
-            GameObject obj = kvp.Value;
-            int index = targetObjects.IndexOf(obj);
-            if (index >= 0 && index < audioSources.Count)
-            {
-                audioSources[index].Play();
+                audio.Play();
+                Debug.Log($"[Audio] Played: {targetObjects[index].name}");
             }
         }
     }
